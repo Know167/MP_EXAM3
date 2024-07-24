@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
         val buttonApp1: Button = findViewById(R.id.buttonApp1)
         val buttonApp2: Button = findViewById(R.id.buttonApp2)
-        loadFragment(App1Fragment())
+//        loadFragment(App1Fragment())
 
         buttonApp1.setOnClickListener {
             loadFragment(App1Fragment())

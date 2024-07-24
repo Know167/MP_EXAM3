@@ -2,6 +2,7 @@ package com.example.mp_exam3.fragments
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,6 +22,8 @@ class App2Fragment : Fragment() {
             val intent = Intent()
             intent.setClassName("com.example.mp_exam2", "com.example.mp_exam2.MainActivity")
             intent.putExtra("input","Hello, App 2: App3")
+
+            Log.d("App3", "Sending intent to App2 with message")
             startActivity(intent)
         }
 
